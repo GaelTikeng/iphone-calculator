@@ -50,6 +50,10 @@ body {
   outline: none;
 }
 
+.append-operator {
+  background-color: #c78100 !important;
+}
+
 .buttons button {
   width: 65px;
   height: 65px;
@@ -70,6 +74,7 @@ body {
 
 button.zero {
   width: 140px;
+  background-color: #c78100;
   border-radius: 12px;
 }
 

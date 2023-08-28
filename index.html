@@ -16,36 +16,36 @@
       <div class="buttons"​>
       <div class="row">
         <button onclick="clearDisplay()" class="symbol">AC</button>
-        <button onclick="appendOperator('%')" class="symbol">%</button>
         <button onclick="deleteLastCharacter()" class="symbol">&#9003;</button>
-        <button onclick="appendOperator('/')" class="symbol-right">/</button>
+        <button onclick="appendOperator('%')" class="symbol append-operator">%</button>
+        <button class="append-operator symbol-right" onclick="appendOperator('/')">/</button>
       </div>
 
       <div class="row">
-        <button onclick="appendValue('7')">7</button>
-        <button onclick="appendValue('8')">8</button>
-        <button onclick="appendValue('9')">9</button>
-        <button onclick="appendOperator('*')" class="symbol-right">*</button>
+        <button class="append-value" onclick="appendValue('7')">7</button>
+        <button class="append-value" onclick="appendValue('8')">8</button>
+        <button class="append-value" onclick="appendValue('9')">9</button>
+        <button class="append-operator" onclick="appendOperator('*')" class="symbol-right">*</button>
       </div>
 
       <div class="row">
-        <button onclick="appendValue('4')">4</button>
-        <button onclick="appendValue('5')">5</button>
-        <button onclick="appendValue('6')">6</button>
-        <button onclick="appendOperator('-')" class="symbol-right">-</button>
+        <button class="append-value" onclick="appendValue('4')">4</button>
+        <button class="append-value" onclick="appendValue('5')">5</button>
+        <button class="append-value" onclick="appendValue('6')">6</button>
+        <button class="append-operator" onclick="appendOperator('-')" class="symbol-right">-</button>
       </div>
 
       <div class="row">
         <button onclick="appendValue('1')">1</button>
         <button onclick="appendValue('2')">2</button>
         <button onclick="appendValue('3')">3</button>
-        <button onclick="appendOperator('+')" class="symbol-right">+</button>
+        <button class="append-operator" onclick="appendOperator('+')" class="symbol-right">+</button>
       </div>
 
       <div class="row">
-        <button onclick="appendValue('0')" class="zero">0</button>
+        <button onclick="appendValue('0')">0</button>
         <button onclick="appendValue('.')">.</button>
-        <button onclick="CalculateResult('=')" class="symbol-right">=</button>
+        <button onclick="CalculateResult('=')" class="zero">=</button>
       </div>
     </div>
 
