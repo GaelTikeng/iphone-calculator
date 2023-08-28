@@ -4,9 +4,9 @@
 }
 
 body {
-  /* background: linear-gradient(45deg, #e5771d, #5a818a, #5b5b8d); */
-  /* background-size: 400% 400%; */
-  /* animation: gradient-animation 5s ease infinite; */
+  background: linear-gradient(45deg, #e5771d, #5a818a, #5b5b8d);
+  background-size: 400% 400%;
+  animation: gradient-animation 5s ease infinite;
 }
 
 /* @keyframes gradient-animation {

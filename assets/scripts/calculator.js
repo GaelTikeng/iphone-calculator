@@ -26,7 +26,7 @@ function deleteLastCharacter () {
 function CalculateResult () {
   try {
     equation = equation.replace(/%/g, '*0.01')
-    let result = eval(equation)
+    const result = eval(equation)
     equation = result.toString()
     display.value = equation
   } catch (err) {
